@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#D9B285",
+              secondary: "#272729",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <main>
+      <!-- header start -->
+      <!-- header end -->
+      <header>
+        <div class="max-w-[1760px] mx-auto px-20">
+          <div class="flex items-center justify-between py-[22px]">
+            <div>
+              <figure>
+                <img src="./assets/images/header/logo.svg" alt="logo" />
+              </figure>
+            </div>
+            <nav class="lg:block hidden">
+              <ul class="flex gap-[30px] text-[14px] leading-[22px] uppercase">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Abut us</a></li>
+                <li><a href="#">our agents</a></li>
+                <li><a href="#">properties</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#"> contact us</a></li>
+                <li><a href="#"> search</a></li>
+              </ul>
+            </nav>
+            <button
+              id="mobile-menu"
+              class="menu-btn lg:hidden focus:outline-none"
+            >
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </header>
+    </main>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
