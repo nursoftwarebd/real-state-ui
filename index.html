@@ -82,7 +82,7 @@
             class="absolute top-full bg-gray-100 right-10 left-10 hidden"
           >
             <div class="flex flex-col gap-10 p-5 lg:hidden">
-              <ul class="flex flex-col gap-2 items-center text-center">
+              <ul class[#9C9C9C] flex-col gap-4 items-center text-center">
                 <li class="w-full">
                   <a class="" href="#">Home</a>
                 </li>
@@ -753,8 +753,88 @@
         </div>
       </section>
       <!-- latest properties of sale section 5 end -->
+
+      <!-- contact us section start -->
+      <section class="bg-[#edeff6] py-[86px]">
+        <div class="max-w-[890px] mx-auto px-5">
+          <div>
+            <div class="mx-auto text-center mb-6 max-w-[688px]">
+              <h4
+                class="text-[#1E2640] font-semibold text-2xl lg:text-[40px] leading-[48px] mb-6"
+              >
+                Contact us
+              </h4>
+              <p class="text-[#889099] lg:text-xl leading-7">
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                posuere cubilia curae; Proin sodales ultrices nulla blandit
+                volutpat.
+              </p>
+            </div>
+            <div>
+              <div class="form__shadow bg-white px-7 py-[30px] rounded-xl">
+               <div>
+                <h4 class="text-[#434343] text-2xl font-bold left-9 mb-[6px]">Enquiry Form</h4>
+                <p class="text-[#576074] text-lg leading-8 mb-[17px]">Are you looking for details about a certain property? Ask us a question using the form below.</p>
+               </div>
+                <form class="">
+                  <div class="flex flex-col lg:flex-row gap-[10px] mb-[10px]">
+                    <div class="w-full lg:w-1/2 ">
+                      <input
+                        type="text"
+                        id="firstName"
+                        name="firstName"
+                        placeholder="First Name"
+                        class="w-full border border-[#9C9C9C] rounded-md p-4"
+                      />
+                    </div>
+                    <div class="w-full lg:w-1/2 ">
+                      <input
+                        type="text"
+                        id="lastName"
+                        name="lastName"
+                        placeholder="Last Name"
+                        class="w-full border border-[#9C9C9C] rounded-md p-4"
+                      />
+                    </div>
+                  </div>
+  
+                  <div class="mb-[10px]">
+                    <input
+                      type="email"
+                      id="emailId"
+                      name="emailId"
+                      placeholder="Email ID"
+                      class="w-full border border-[#9C9C9C] rounded-md p-4"
+                    />
+                  </div>
+  
+                  <div class="mb-[2px]">
+                    <textarea
+                      id="commentsTextarea"
+                      name="commentsTextarea"
+                      rows="4"
+                      placeholder="Comments or questions"
+                      class="w-full border border-[#9C9C9C] rounded-md p-4"
+                    ></textarea>
+                  </div>
+  
+                <div class="w-full flex justify-center">
+                  <button
+                  type="submit"
+                  class="px-6 py-3  bg-[#4a60a1] w-[222px] h-[46px] mx-auto rounded text-white font-medium"
+                >
+                  Submit
+                </button>
+                </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact us section end -->
     </main>
-    <footer></footer>
+   <footer></footer>
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>
